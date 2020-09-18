@@ -6,7 +6,7 @@ def readme():
         return f.read()
 
 
-setup(name='ashahba-hello-world-001',
+setup(name='ashahba-hello-world',
       version='0.0.1',
       description='The simplest Hello World PyPi package',
       long_description=readme(),
