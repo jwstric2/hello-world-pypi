@@ -13,7 +13,7 @@ setup(
 
 
 setup(name='ashahba-hello-world',
-      version='0.0.4',
+      version='0.0.5',
       description='The simplest Hello World PyPi package',
       long_description=long_description,
       long_description_content_type='text/markdown',
