@@ -1,15 +1,22 @@
 from setuptools import setup
 
+# read the contents of your README file
+from os import path
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
 
-def readme():
-    with open('README.md') as f:
-        return f.read()
+setup(
+    name='an_example_package',
+    # other arguments omitted
+)
 
 
 setup(name='ashahba-hello-world',
-      version='0.0.3',
+      version='0.0.4',
       description='The simplest Hello World PyPi package',
-      long_description=readme(),
+      long_description=long_description,
+      long_description_content_type='text/markdown',
       classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
