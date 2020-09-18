@@ -4,7 +4,7 @@ Hello World PyPi Project
 To use this package, simply run::
 
     >>> import hello_world
-    >>> print hello_world.hello()
+    >>> print(hello_world.hello())
 
 To build the project
 --------------------
