@@ -2,12 +2,12 @@ from setuptools import setup
 
 
 def readme():
-    with open('README.rst') as f:
+    with open('README.md') as f:
         return f.read()
 
 
 setup(name='ashahba-hello-world',
-      version='0.0.1',
+      version='0.0.3',
       description='The simplest Hello World PyPi package',
       long_description=readme(),
       classifiers=[
