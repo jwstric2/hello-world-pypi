@@ -7,9 +7,9 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 
-setup(name='ashahba-hello-world',
-      version='0.0.5',
-      description='The simplest Hello World PyPi package',
+setup(name='jonatstr-hello-world',
+      version='0.0.1',
+      description='The simplest Hello World PyPi package with a big file in it',
       long_description=long_description,
       long_description_content_type='text/markdown',
       classifiers=[
@@ -22,6 +22,7 @@ setup(name='ashahba-hello-world',
 
         'Topic :: Text Processing :: Linguistic',
       ],
+      data_files=[('conf', ['conf/1MB.json', 'conf/5MB.json', 'conf/large-file.json'])],
       keywords='simplest hello world pypi package',
       url='http://github.com/ashahba/hello-world-pypi',
       author='Abolfazl Shahbazi',
